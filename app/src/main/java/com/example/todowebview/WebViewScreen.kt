@@ -33,8 +33,8 @@ fun WebViewScreen() {
                 settings.javaScriptEnabled = true
 
                 // Load our local HTML file from the assets folder
-                // loadUrl("file:///android_asset/index.html")
-                loadUrl("https://bddairy.com/admin/login")
+                loadUrl("file:///android_asset/index.html")
+                //loadUrl("https://bddairy.com/")
 
                 // Assign the created webview to our state variable
                 webView = this
